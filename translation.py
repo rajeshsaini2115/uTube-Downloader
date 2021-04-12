@@ -1,6 +1,15 @@
 class Translation(object):
 
     START_TEXT = """
+Hello {} ,<b>I'm A POWERFULL YOUTUBE Upload Bot With added playlist thumbnail Support💯.
+
+Please send me any YOUTUBE link, I can upload it to telegram as File/Video</b>
+
+Click <b>help</b> for more details....
+"""
+
+
+    HELP_TEXT = """
 Hello {} , I'am a simple youtube video link to telegram file or media uploader bot with permanent thumbnail support.
 
 <b><u>Link to Media or File</u></b>
@@ -15,7 +24,7 @@ Hello {} , I'am a simple youtube video link to telegram file or media uploader b
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb to view custom thumbnail.
 
-Made by @FayasNoushad
+Made by @VKPROJECTS
 """
     BLOCK_LIST_TEXT = "This url is blocked so I can not upload this URL.\n\nUse @FnURLUploadBot"
     FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>
