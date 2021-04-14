@@ -26,7 +26,8 @@ Hello {} , I'am a simple youtube video link to telegram file or media uploader b
 
 Made by @VKPROJECTS
 """
-    ABOUT_TEXT = "⭕Bot Name : Youtube Bot
+    ABOUT_TEXT = """
+⭕Bot Name : Youtube Bot
     
 ⭕Funtion : Upload Youtube Videos To Telegram
 
@@ -36,11 +37,14 @@ Made by @VKPROJECTS
 
 ⭕Language : Python3
 
-⭕Framework : Pyrogram"
+⭕Framework : Pyrogram
+"""
 
-    PLAN_TEXT = "<b>Hai {} Your Plan Details</b>
+    PLAN_TEXT = """
+<b>Hai {} Your Plan Details</b>
 <code>Plan name: Free User
-Expires on: Until my Death 😍</code>"
+Expires on: Until my Death 😍</code>
+"""
     BLOCK_LIST_TEXT = "This url is blocked so I can not upload this URL.\n\nUse @URLUploader_XBot"
     FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>
     
