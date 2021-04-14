@@ -37,6 +37,10 @@ Made by @VKPROJECTS
 ⭕Language : Python3
 
 ⭕Framework : Pyrogram"
+
+    PLAN_TEXT = "<b>Hai {} Your Plan Details</b>
+<code>Plan name: Free User
+Expires on: Until my Death 😍</code>"
     BLOCK_LIST_TEXT = "This url is blocked so I can not upload this URL.\n\nUse @URLUploader_XBot"
     FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>
     
