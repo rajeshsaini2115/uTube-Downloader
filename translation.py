@@ -26,7 +26,18 @@ Hello {} , I'am a simple youtube video link to telegram file or media uploader b
 
 Made by @VKPROJECTS
 """
-    BLOCK_LIST_TEXT = "This url is blocked so I can not upload this URL.\n\nUse @FnURLUploadBot"
+    ABOUT_TEXT = "⭕Bot Name : Youtube Bot
+    
+⭕Funtion : Upload Youtube Videos To Telegram
+
+⭕Created By : @VkProjects
+
+⭕Devs : All Devs Behind This Bot❤
+
+⭕Language : Python3
+
+⭕Framework : Pyrogram"
+    BLOCK_LIST_TEXT = "This url is blocked so I can not upload this URL.\n\nUse @URLUploader_XBot"
     FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>
     
 Send your custum thumbnail if required.
@@ -39,7 +50,7 @@ URL | newfilename | username | password"""
     UPLOAD_START = "<code>Uploading into Telegram...</code>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
-    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @FayasNoushad"
+    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @VKPROJECTS"
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     NO_VOID_FORMAT_FOUND = "<code>{}</code>"
     REPORT_SITE_TEXT = "<code>Sorry not uploading in this site here because this site is reporting site.</code>"
