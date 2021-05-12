@@ -74,15 +74,9 @@ async def show_thumb(bot, update):
     
     if thumb_image_path is not None:
         try:
-await bot.send_message(
-        chat_id=update.chat.id,
-        text==""hi"",
-        parse_mode="html",
-        disable_web_page_preview=True,
-        reply_to_message_id=update.message_id       
-        photo=thumb_image_path
-        update.effective_message.reply_photo(photo, showthumb, parse_mode=ParseMode.HTML)
-
+                await bot.send_photo(
+                chat_id=update.chat.id,
+                photo=thumb_image_path
             )
         except:
             pass
