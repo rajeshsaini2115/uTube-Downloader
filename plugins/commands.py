@@ -13,7 +13,7 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.mention),
         parse_mode="html", disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/VKPROJECTS')]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/jns_bots')]]),
         reply_to_message_id=update.message_id
     )
 
@@ -24,7 +24,7 @@ async def help(bot, update):
         chat_id=update.chat.id,
         text=Translation.HELP_TEXT.format(update.from_user.mention),
         parse_mode="html", disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/VKPROJECTS')]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/jns_bots')]]),
         reply_to_message_id=update.message_id
     )
 
@@ -35,7 +35,7 @@ async def about(bot, update):
         chat_id=update.chat.id,
         text=Translation.ABOUT_TEXT.format(update.from_user.mention),
         parse_mode="html", disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/VKPROJECTS')]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/jns_bots')]]),
         reply_to_message_id=update.message_id
     )
 
@@ -46,6 +46,6 @@ async def plan(bot, update):
         chat_id=update.chat.id,
         text=Translation.PLAN_TEXT.format(update.from_user.mention),
         parse_mode="html", disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/VKPROJECTS')]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/jns_bots')]]),
         reply_to_message_id=update.message_id
     )
