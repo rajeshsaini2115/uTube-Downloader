@@ -29,17 +29,15 @@ Hello {} ,<b>𝙸'𝚖 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚈𝙾𝚄�
  <b>♕ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ♛</b> <a href="https://t.me/jns_bots">ＪƝ⟆ ᗷ〇Ƭ⟆</a>🎊
 """
     ABOUT_TEXT = """
-⭕Bot Name : Youtube Bot
+🤖 𝗠𝗬 𝗡𝗔𝗠𝗘 : <a href="https://t.me/JNS_YOYTUBE_BOT">JNS YT DOWNLOADER</a>
     
-⭕Funtion : Upload Youtube Videos To Telegram
+📣𝗖𝗛𝗔𝗡𝗡𝗘𝗟 : <a href="https://t.me/jns_bots">ＪƝ⟆ ᗷ〇Ƭ⟆</a>
 
-⭕Created By : @VkProjects
+👲 𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥 : <a href="https://t.me/jintons">JINTO NS</a>❤
 
-⭕Devs : All Devs Behind This Bot❤
+📜𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘 : <a href="https://www.python.org/">Python3</a>
 
-⭕Language : Python3
-
-⭕Framework : Pyrogram
+📮 𝗙𝗥𝗔𝗠𝗘𝗪𝗢𝗥𝗞 : <a href="https://github.com/pyrogram/pyrogram">PYROGRAM</a>
 """
 
     PLAN_TEXT = """
