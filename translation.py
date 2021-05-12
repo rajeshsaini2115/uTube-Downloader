@@ -1,7 +1,7 @@
 class Translation(object):
 
     START_TEXT = """
-Hello {} ,<b>𝙸'𝚖 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝚄𝚙𝚕𝚘𝚊𝚍 𝙱𝚘𝚝 𝙵𝚛𝚘𝚖 𝙹𝙽𝚂 𝙱𝙾𝚃𝚂 𝚆𝚒𝚝𝚑 𝚊𝚍𝚍𝚎𝚍 𝚙𝚕𝚊𝚢𝚕𝚒𝚜𝚝 𝚝𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 𝚂𝚞𝚙𝚙𝚘𝚛𝚝💯.\n
+Hello {} ,<b>𝙸'𝚖 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚛 𝙱𝚘𝚝 𝙵𝚛𝚘𝚖 𝙹𝙽𝚂 𝙱𝙾𝚃𝚂 𝚆𝚒𝚝𝚑 𝚊𝚍𝚍𝚎𝚍 𝚙𝚕𝚊𝚢𝚕𝚒𝚜𝚝 𝚝𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 𝚂𝚞𝚙𝚙𝚘𝚛𝚝💯.\n
 
 𝙿𝚕𝚎𝚊𝚜𝚎 𝚜𝚎𝚗𝚍 𝚖𝚎 𝚊𝚗𝚢 𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝚕𝚒𝚗𝚔, 𝙸 𝚌𝚊𝚗 𝚞𝚙𝚕𝚘𝚊𝚍 𝚒𝚝 𝚝𝚘 𝚝𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝚊𝚜 𝙵𝚒𝚕𝚎/𝚅𝚒𝚍𝚎𝚘</b>
 
@@ -44,20 +44,20 @@ Hello {} ,<b>𝙸'𝚖 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚈𝙾𝚄�
 <code>Plan name: Free User
 Expires on: Until my Death 😍</code>
 """
-    BLOCK_LIST_TEXT = "This url is blocked so I can not upload this URL.\n\nUse @URLUploader_XBot"
+    BLOCK_LIST_TEXT = "This url is blocked so I can not upload this 🙅 URL.\n\nUse @JNS_URLUPLOADERbot"
     FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>
     
 Send your custum thumbnail if required.
 You can use /delthumb to delete the auto-generated thumbnail."""
     CHECKING_LINK = "<code>Analysing Your Link</code>⏳"
-    BANNED_USER_TEXT = "<code>You are Banned!</code>"
+    BANNED_USER_TEXT = "<code>You are Banned!</code>🙅"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
-    DOWNLOAD_START = "<code>Downloading To My server Please Wait...</code>"    
-    UPLOAD_START = "<code>Uploading into Telegram...</code>"
+    DOWNLOAD_START = "<code>📥Downloading To My server Please Wait patiently...</code> 😉 "    
+    UPLOAD_START = "<code>📤Uploading into Telegram...😉</code>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
-    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @VKPROJECTS"
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, 😔 I cannot upload files greater than 1.95GB due to Telegram API limitations."
+    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @JNS_BOTS"
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     NO_VOID_FORMAT_FOUND = "<code>{}</code>"
     REPORT_SITE_TEXT = "<code>Sorry not uploading in this site here because this site is reporting site.</code>"
