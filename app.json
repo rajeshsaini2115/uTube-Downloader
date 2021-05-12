@@ -8,7 +8,7 @@
   ],
   "success_url": "https://github.com/FayasNoushad",
   "website": "https://fayas.cf",
-  "repository": "https://github.com/FayasNoushad/YouTube-Downloader",
+  "repository": "https://github.com/jnsbot/utube-Downloader",
   "env": {
     "WEBHOOK": {
       "description": "Leave this as it is!",
