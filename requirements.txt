@@ -11,4 +11,4 @@ pyrogram
 feedparser
 requests
 tgcrypto
-youtube-dl
+youtube-dl==2021.6.6
