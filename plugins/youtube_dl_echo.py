@@ -34,7 +34,9 @@ from hachoir.parser import createParser
 from datetime import datetime
 from PIL import Image
 
-@Client.on_message(filters.private & filters.regex(pattern=".*http.*"))
+ytregex = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$"
+
+@Client.on_message(filters.private & filters.regex(ytregex))
 async def echo(bot, update):
     if "youtu" not in update.text:
         await bot.edit_message_text(chat_id=update.chat.id, text=Translation.BLOCK_LIST_TEXT, disable_web_page_preview=True, parse_mode="html", message_id=fmsg.message_id)
