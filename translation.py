@@ -50,23 +50,38 @@ Hello {} ,<b>𝙸'𝚖 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚈𝙾𝚄�
         InlineKeyboardButton('Updates Channel 🗣', url='https://telegram.me/new_ehi'),
         InlineKeyboardButton('Support Group 👥', url='https://telegram.me/leosupportx')
         ],[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('Help🆘', callback_data='help'),
+        InlineKeyboardButton('About❗', callback_data='about'),
+        InlineKeyboardButton('Plan💸', callback_data='plan')
+        ],[
+        InlineKeyboardButton('Close❎', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('Home🏠', callback_data='home'),
+        InlineKeyboardButton('About❗', callback_data='about'),
+        InlineKeyboardButton('Plan💸', callback_data='plan')
+        ],[
+        InlineKeyboardButton('Close❎', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('Home🏠', callback_data='home'),
+        InlineKeyboardButton('Help🆘', callback_data='help'),
+        InlineKeyboardButton('Plan💸', callback_data='plan')
+        ],[
+        InlineKeyboardButton('Close❎', callback_data='close')
+        ]]
+    )
+    PLAN_BUTTONS = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('Home🏠', callback_data='home'),
+        InlineKeyboardButton('About❗', callback_data='about'),
+        InlineKeyboardButton('Help🆘', callback_data='Help')
+        ],[
+        InlineKeyboardButton('Close❎', callback_data='close')
         ]]
     )
     PLAN_TEXT = """
