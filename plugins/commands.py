@@ -5,7 +5,7 @@ else:
     from config import Config
 from translation import Translation
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, Message
 
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(bot, update):
