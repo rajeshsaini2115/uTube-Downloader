@@ -49,7 +49,7 @@ async def plan(bot, update):
         reply_markup=Translation.PLAN_BUTTONS,
         reply_to_message_id=update.message_id
     )
-@StreamBot.on_callback_query()
+@Client.on_callback_query()
 async def cb_data(bot, update):
     if update.data == "home":
         await update.message.edit_text(
