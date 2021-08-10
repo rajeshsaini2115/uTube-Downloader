@@ -4,10 +4,11 @@ if bool(os.environ.get("WEBHOOK", False)):
 else:
     from config import Config
 from translation import Translation
-from pyrogram import Client, filters
+from pyrogram import filters
+from pyrogram import Client  as Mai_bOTs
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, Message
 
-@Client.on_message(filters.command(["start"]) & filters.private)
+@Mai_bOTs.on_message(filters.command(["start"]) & filters.private)
 async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
@@ -18,7 +19,7 @@ async def start(bot, update):
     )
 
 
-@Client.on_message(filters.command(["help"]) & filters.private)
+@Mai_bOTs.on_message(filters.command(["help"]) & filters.private)
 async def help(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
@@ -29,7 +30,7 @@ async def help(bot, update):
     )
 
 
-@Client.on_message(filters.command(["about"]) & filters.private)
+@Mai_bOTs.on_message(filters.command(["about"]) & filters.private)
 async def about(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
@@ -40,7 +41,7 @@ async def about(bot, update):
     )
 
 
-@Client.on_message(filters.command(["plan"]) & filters.private)
+@Mai_bOTs.on_message(filters.command(["plan"]) & filters.private)
 async def plan(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
@@ -49,7 +50,7 @@ async def plan(bot, update):
         reply_markup=Translation.PLAN_BUTTONS,
         reply_to_message_id=update.message_id
     )
-@Client.on_callback_query()
+@Mai_bOTs.on_callback_query()
 async def cb_data(bot, update):
     if update.data == "home":
         await update.message.edit_text(
