@@ -51,7 +51,8 @@ async def plan(bot, update):
         reply_to_message_id=update.message_id
     )
 @Mai_bOTs.on_callback_query()
-async def cb_data(bot, update):
+async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
+    data = query.data
     if update.data == "home":
         await update.message.edit_text(
             text=START_TEXT.format(update.from_user.mention),
@@ -70,5 +71,9 @@ async def cb_data(bot, update):
             disable_web_page_preview=True,
             reply_markup=ABOUT_BUTTONS
         )
-    else:
-        await update.message.delete()
+    elif data == "close":
+        await query.message.delete()
+        try:
+            await query.message.reply_to_message.delete()
+        except:
+            pass
