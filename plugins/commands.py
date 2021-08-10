@@ -13,7 +13,7 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.mention),
         parse_mode="html", disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/jns_bots')]]),
+        reply_markup=Translation.START_BUTTONS,
         reply_to_message_id=update.message_id
     )
 
