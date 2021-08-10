@@ -84,28 +84,6 @@ Hello {} ,<b>𝙸'𝚖 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚈𝙾𝚄�
         InlineKeyboardButton('Close❎', callback_data='close')
         ]]
     )
-@Client.on_callback_query()
-async def cb_data(bot, update):
-    if update.data == "home":
-        await update.message.edit_text(
-            text=START_TEXT.format(update.from_user.mention),
-            disable_web_page_preview=True,
-            reply_markup=START_BUTTONS
-        )
-    elif update.data == "help":
-        await update.message.edit_text(
-            text=HELP_TEXT,
-            disable_web_page_preview=True,
-            reply_markup=HELP_BUTTONS
-        )
-    elif update.data == "about":
-        await update.message.edit_text(
-            text=ABOUT_TEXT,
-            disable_web_page_preview=True,
-            reply_markup=ABOUT_BUTTONS
-        )
-    else:
-        await update.message.delete()
 
     PLAN_TEXT = """
 <b>Hai {} Your Plan Details</b>
