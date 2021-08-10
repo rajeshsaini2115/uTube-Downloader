@@ -24,7 +24,7 @@ async def help(bot, update):
         chat_id=update.chat.id,
         text=Translation.HELP_TEXT.format(update.from_user.mention),
         parse_mode="html", disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/jns_bots')]]),
+        reply_markup=Translation.HELP_BUTTONS,
         reply_to_message_id=update.message_id
     )
 
@@ -35,7 +35,7 @@ async def about(bot, update):
         chat_id=update.chat.id,
         text=Translation.ABOUT_TEXT.format(update.from_user.mention),
         parse_mode="html", disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚙ JOIN UPDATES CHANNEL ⚙', url='https://telegram.me/jns_bots')]]),
+        reply_markup=Translation.ABOUT_BUTTONS,
         reply_to_message_id=update.message_id
     )
 
